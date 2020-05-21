@@ -66,10 +66,10 @@ nav .float-right a:hover { color: #f2f2f2; }
 .jumbotron .my-4 { background-color: #ffe400; }
 
 /*                              M  O   B   I   L   E                      */
-@media (max-width: 499px) { /* css for navigation bar */ .navbar .float-right { margin-left: auto; margin-right: auto; } .navbar .float-right a { font-size: 16px; } .navbar-brand { display: none; } /* css for home page */ .abt { line-height: 20px; } .abt p, .abt li { font-size: 16px; } .abt h1 { font-size: 32px; } }
+@media (max-width: 500px) { /* css for navigation bar */ .navbar .float-right { margin-left: auto; margin-right: auto; } .navbar .float-right a { font-size: 16px; } .navbar-brand { display: none; } /* css for home page */ .abt { line-height: 20px; } .abt p, .abt li { font-size: 16px; } .abt h1 { font-size: 32px; } }
 
-@media (max-width: 499px) and (max-width: 499px) { .card { transform: scale(0.9); } }
+@media (max-width: 500px) and (max-width: 499px) { .card { transform: scale(0.9); } }
 
-@media (max-width: 499px) { /* css for blog */ .blog { margin-top: 16px; } .blog h1 > a { font-size: 32px; } .blog p { font-size: 16px; } /* css for posts */ .post h1 { font-size: 1.8em; } /* Projects */ .jumbotron .display-5 { font-size: 32px; } .jumbotron .lead { font-size: 14px; } .jumbotron .btn { transform: scale(0.7); } .card { font-size: 14px; } }
+@media (max-width: 500px) { /* css for blog */ .blog { margin-top: 16px; } .blog h1 > a { font-size: 32px; } .blog p { font-size: 16px; } /* css for posts */ .post h1 { font-size: 1.8em; } /* Projects */ .jumbotron .display-5 { font-size: 32px; } .jumbotron .lead { font-size: 14px; } .jumbotron .btn { transform: scale(0.7); } .card { font-size: 14px; } }
 
 /*# sourceMappingURL=styles.css.map */
