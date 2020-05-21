@@ -1,0 +1,75 @@
+body { margin: 0; padding: 0; background: url("/assets/images/bg.jpg"); background-attachment: fixed; color: #f2f2f2; font-family: 'Roboto', sans-serif; }
+
+body h1 { color: #ffe400; }
+
+body::before { content: ""; background-color: rgba(71, 75, 79, 0.8); top: 0; left: 0; right: 0; bottom: 0; position: fixed; z-index: -1; }
+
+/* CSS FOR NAVIGATION BAR */
+nav { box-shadow: 0px 4px 4px 0px #080808; margin-bottom: 16px; margin-top: 16px; background-color: #222629; }
+
+nav a:hover { text-decoration: underline; color: #ffe400; }
+
+nav .float-right a { padding: 0em 0.6em; color: #ffe400; font-size: 18px; }
+
+nav .float-right a:nth-child(2) { border-right: 1px solid white; border-left: 1px solid white; padding: 0em 0.8em; }
+
+nav .float-right a:hover { color: #f2f2f2; }
+
+.navbar { padding-left: 2.5em; padding-right: 2.5em; }
+
+.navbar-brand { font-weight: bold; font-size: 36px; color: #f2f2f2; }
+
+/* CSS FOR HOME */
+.abt { font-size: 18px; line-height: 24px; width: auto; margin-top: 32px; }
+
+.abt h1 { font-size: 36px; }
+
+.abt a { text-decoration: none; color: #f2f2f2; }
+
+.abt i { text-decoration: underline; }
+
+.card { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); max-width: 300px; margin: auto; text-align: center; background: rgba(71, 75, 79, 0.8); }
+
+.card h1 { margin-top: 16px; }
+
+.card .title { color: rgba(255, 228, 0, 0.8); font-size: 18px; }
+
+.card button { border: none; outline: 0; display: inline-block; padding: 8px; color: white; background-color: #222629; text-align: center; cursor: pointer; width: 100%; font-size: 16px; }
+
+.card a { text-decoration: none; font-size: 22px; color: #f2f2f2; display: inline; }
+
+.card .social-icons { margin-bottom: 16px; }
+
+.card .social-icons a { margin: 8px; }
+
+.card .info { margin: 0; }
+
+.card button:hover, .card a:hover { opacity: 0.7; }
+
+@media (min-width: 599px) { .about { display: flex; } }
+
+/* CSS FOR BLOG */
+.blog { margin-top: 32px; }
+
+.blog h1 > a { color: #ffe400; font-size: 36px; }
+
+.blog p { font-size: 18px; }
+
+/* CSS FOR POSTS */
+.post #author { border-bottom: 1px dashed #f2f2f2; }
+
+/* CSS FOR PROJECTS */
+.jumbotron { background-color: rgba(34, 38, 41, 0.4); }
+
+.jumbotron .btn { border: 1px solid #ffe400; border-radius: 8px; color: #f2f2f2; }
+
+.jumbotron .my-4 { background-color: #ffe400; }
+
+/*                              M  O   B   I   L   E                      */
+@media (max-width: 499px) { /* css for navigation bar */ .navbar .float-right { margin-left: auto; margin-right: auto; } .navbar .float-right a { font-size: 16px; } .navbar-brand { display: none; } /* css for home page */ .abt { line-height: 20px; } .abt p, .abt li { font-size: 16px; } .abt h1 { font-size: 32px; } }
+
+@media (max-width: 499px) and (max-width: 499px) { .card { transform: scale(0.9); } }
+
+@media (max-width: 499px) { /* css for blog */ .blog { margin-top: 16px; } .blog h1 > a { font-size: 32px; } .blog p { font-size: 16px; } /* css for posts */ .post h1 { font-size: 1.8em; } /* Projects */ .jumbotron .display-5 { font-size: 32px; } .jumbotron .lead { font-size: 14px; } .jumbotron .btn { transform: scale(0.7); } .card { font-size: 14px; } }
+
+/*# sourceMappingURL=styles.css.map */
