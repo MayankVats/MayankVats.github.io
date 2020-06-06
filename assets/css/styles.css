@@ -1,5 +1,9 @@
 body { margin: 0; padding: 0; background: url("/assets/images/bg.jpg"); background-attachment: fixed; color: #f2f2f2; font-family: 'Roboto', sans-serif; }
 
+body a { color: #ffe400; }
+
+body a:hover { color: rgba(255, 228, 0, 0.8); }
+
 body h1 { color: #ffe400; }
 
 body::before { content: ""; background-color: rgba(71, 75, 79, 0.8); top: 0; left: 0; right: 0; bottom: 0; position: fixed; z-index: -1; }
@@ -70,6 +74,6 @@ nav .float-right a:hover { color: #f2f2f2; }
 
 @media (max-width: 500px) and (max-width: 499px) { .card { transform: scale(0.9); } }
 
-@media (max-width: 500px) { /* css for blog */ .blog { margin-top: 16px; } .blog h1 > a { font-size: 32px; } .blog p { font-size: 16px; } /* css for posts */ .post h1 { font-size: 1.8em; } /* Projects */ .jumbotron .display-5 { font-size: 32px; } .jumbotron .lead { font-size: 14px; } .jumbotron .btn { transform: scale(0.7); } .card { font-size: 14px; } }
+@media (max-width: 500px) { /* css for blog */ .blog { margin-top: 16px; } .blog h1 > a { font-size: 32px; } .blog p { font-size: 16px; } /* css for posts */ .post { font-size: 16px; } .post h1 { font-size: 32px; } /* Projects */ .jumbotron .display-5 { font-size: 32px; } .jumbotron .lead { font-size: 14px; } .jumbotron .btn { transform: scale(0.7); } .card { font-size: 14px; } }
 
 /*# sourceMappingURL=styles.css.map */
